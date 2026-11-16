@@ -1,88 +1,209 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Task2Money | Earn Rewards</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f7ff;
-      color: #17233b;
-      text-align: center;
-    }
-    header {
-      background: linear-gradient(135deg, #123a8c, #087eac);
-      color: white;
-      padding: 55px 20px;
-    }
-    h1 { font-size: 36px; margin: 0 0 12px; }
-    header p { line-height: 1.6; }
-    main { max-width: 900px; margin: auto; padding: 35px 18px; }
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 18px;
-      margin-top: 25px;
-    }
-    .card {
-      background: white;
-      padding: 26px 18px;
-      border-radius: 16px;
-      box-shadow: 0 5px 20px #142d5712;
-    }
-    .emoji { font-size: 36px; }
-    .card h3 { color: #1454a0; }
-    .card p { color: #56647a; line-height: 1.5; }
-    .notice {
-      margin-top: 30px;
-      padding: 20px;
-      background: #e5efff;
-      border-radius: 12px;
-      line-height: 1.6;
-    }
-    footer { padding: 25px; color: #657187; }
-  </style>
+  <meta name="theme-color" content="#101b38">
+  <meta name="description" content="Task2Money is an India-focused pre-launch rewards platform exploring surveys, app offers, gaming milestones and eligible rewarded activities.">
+  <title>Task2Money | Rewards Platform — Pre-launch</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Task2Money</h1>
-    <p>Simple Tasks. Real Opportunities.</p>
-    <p>India-focused rewards platform | Coming Soon</p>
+
+  <header class="nav">
+    <div class="wrap">
+      <a class="logo" href="#top">Task<span>2</span>Money</a>
+      <nav aria-label="Main navigation">
+        <a href="#opportunities">Opportunities</a>
+        <a href="#how">How it works</a>
+        <a href="#payments">Withdrawals</a>
+        <a href="#partners">Partners</a>
+        <a href="#trust">Trust</a>
+      </nav>
+    </div>
   </header>
-  <main>
-    <h2>Explore Ways to Earn</h2>
-    <p>Complete eligible activities and discover reward opportunities.</p>
-    <div class="features">
-      <div class="card">
-        <div class="emoji">📋</div>
-        <h3>Survey & Earn</h3>
-        <p>Complete eligible surveys and receive rewards for approved responses.</p>
+
+  <main id="top">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">🇮🇳 India-focused · Pre-launch concept</span>
+          <h1>Every task deserves a clear reward journey.</h1>
+          <p>Task2Money is building a transparent, mobile-first experience for eligible surveys, app offers, gaming milestones and rewarded activities—subject to partner approval and campaign availability.</p>
+          <div class="buttons">
+            <a class="btn" href="#how">Explore the concept</a>
+            <a class="btn alt" href="#partners">For potential partners</a>
+          </div>
+        </div>
+        <div class="mock" aria-label="Illustrative app experience">
+          <div class="screen">
+            <strong>Discover opportunities</strong>
+            <span class="pill">Preview · Not live offers</span>
+            <div class="mini">📋 &nbsp; Surveys &amp; feedback</div>
+            <div class="mini">📱 &nbsp; App discovery offers</div>
+            <div class="mini">🎮 &nbsp; Gaming milestones</div>
+            <div class="mini">▶️ &nbsp; Eligible rewarded media</div>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <div class="emoji">📱</div>
-        <h3>Install & Earn</h3>
-        <p>Try partner apps and complete qualifying offers.</p>
-      </div>
-      <div class="card">
-        <div class="emoji">🎮</div>
-        <h3>Play & Earn</h3>
-        <p>Reach eligible game milestones to unlock rewards.</p>
-      </div>
-      <div class="card">
-        <div class="emoji">▶️</div>
-        <h3>Watch & Earn</h3>
-        <p>Participate in approved rewarded-video campaigns when available.</p>
-      </div>
-    </div>
+    </section>
+
+    <!-- Status Banner -->
     <div class="notice">
-      <strong>Currently in Development</strong>
-      <p>Rewards, availability and payment methods depend on partner approval and verification. Earnings are not guaranteed.</p>
+      <div class="wrap">
+        <strong>Development status:</strong> This website presents a pre-launch product concept. Offers, earning rates, payment processing and partner integrations are not yet live or guaranteed.
+      </div>
     </div>
+
+    <!-- Opportunities Section -->
+    <section class="section" id="opportunities">
+      <div class="wrap">
+        <h2>Reward experiences we plan to support</h2>
+        <p class="lead">A single destination for clearly described, eligibility-based activities, with tracking and validation before any reward is credited.</p>
+        <div class="grid">
+          <article class="card">
+            <div class="emoji">📋</div>
+            <h3>Survey &amp; Earn</h3>
+            <p>Complete qualifying research surveys where approved partner inventory is available.</p>
+          </article>
+          <article class="card">
+            <div class="emoji">📲</div>
+            <h3>Install &amp; Earn</h3>
+            <p>Explore eligible app campaigns with explicit completion requirements.</p>
+          </article>
+          <article class="card">
+            <div class="emoji">🎮</div>
+            <h3>Play &amp; Earn</h3>
+            <p>Reach qualifying game milestones in supported campaigns.</p>
+          </article>
+          <article class="card">
+            <div class="emoji">🎬</div>
+            <h3>Watch &amp; Earn</h3>
+            <p>Participate only in rewarded-video campaigns expressly permitted by providers.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="section soft" id="how">
+      <div class="wrap">
+        <h2>A straightforward reward journey</h2>
+        <p class="lead">The intended flow emphasizes transparency rather than promises of easy income.</p>
+        <div class="steps">
+          <div class="step">
+            <div class="num">1</div>
+            <h3>Create an account</h3>
+            <p>Secure account access is planned for the production version.</p>
+          </div>
+          <div class="step">
+            <div class="num">2</div>
+            <h3>Choose an eligible task</h3>
+            <p>Review conditions, eligibility and any available reward before starting.</p>
+          </div>
+          <div class="step">
+            <div class="num">3</div>
+            <h3>Partner verification</h3>
+            <p>Completion is checked against provider rules and anti-fraud safeguards.</p>
+          </div>
+          <div class="step">
+            <div class="num">4</div>
+            <h3>Reward &amp; withdrawal</h3>
+            <p>Approved rewards may become withdrawable when payment systems are enabled and conditions are met.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Payments Section -->
+    <section class="section" id="payments">
+      <div class="wrap">
+        <h2>Planned withdrawal options</h2>
+        <p class="lead">Built with Indian users in mind. These are proposed methods, not currently active payment services.</p>
+        <div class="two">
+          <div class="info">
+            <h3>🇮🇳 UPI</h3>
+            <p class="muted">A familiar digital withdrawal experience, subject to payment-provider onboarding, verification and applicable rules.</p>
+          </div>
+          <div class="info">
+            <h3>🏦 Bank transfer</h3>
+            <p class="muted">A potential alternative for eligible verified accounts, subject to provider support and compliance checks.</p>
+          </div>
+        </div>
+        <p class="muted note-text">Minimum withdrawal thresholds, fees, processing times and availability will be published before launch. No withdrawal functionality is active on this demo website.</p>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="section soft" id="partners">
+      <div class="wrap">
+        <h2>Built for responsible partner integrations</h2>
+        <p class="lead">We are exploring partnerships with eligible survey, offerwall, gaming and rewarded-media providers serving India.</p>
+        <div class="two">
+          <div class="info">
+            <h3>What we aim to provide</h3>
+            <ul>
+              <li>Clear placement of approved campaigns and their terms</li>
+              <li>Consent-based user experience and transparent disclosures</li>
+              <li>Completion validation, duplicate-activity controls and fraud review</li>
+              <li>Support workflows for missing or disputed rewards</li>
+            </ul>
+          </div>
+          <div class="info">
+            <h3>Integration principles</h3>
+            <ul>
+              <li>Only activate campaigns after publisher acceptance</li>
+              <li>Respect each provider's traffic and incentive policies</li>
+              <li>No misleading reward claims or fabricated performance metrics</li>
+              <li>Publish applicable policies before handling real user data</li>
+            </ul>
+          </div>
+        </div>
+        <p class="muted partner-note">We do not claim an active commercial relationship with any named network at this stage.</p>
+      </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="section" id="trust">
+      <div class="wrap">
+        <h2>Trust starts with clarity</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>🔒 Privacy by design</h3>
+            <p>Collect only necessary information with appropriate notice and controls once services launch.</p>
+          </div>
+          <div class="card">
+            <h3>📄 Clear terms</h3>
+            <p>Task eligibility, rejection reasons and payout conditions will be disclosed.</p>
+          </div>
+          <div class="card">
+            <h3>🛡️ Fraud prevention</h3>
+            <p>Protect partners and legitimate users from duplicate or invalid completions.</p>
+          </div>
+          <div class="card">
+            <h3>🤝 Fair expectations</h3>
+            <p>Rewards depend on actual approved campaigns and validated participation.</p>
+          </div>
+        </div>
+        <p class="muted trust-note">Before production launch, Task2Money will need published Privacy Policy, Terms &amp; Conditions, contact/support information, secure authentication and operational payment arrangements.</p>
+      </div>
+    </section>
   </main>
-  <footer>© 2026 Task2Money. All rights reserved.</footer>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div>
+        <div class="logo footer-logo">Task<span>2</span>Money</div>
+        <p>India-focused rewards platform · Pre-launch</p>
+        <small>© 2026 Task2Money. Concept preview. No live offers or payouts.</small>
+      </div>
+      <div>
+        <strong>Partner inquiries</strong>
+        <p>Please contact the Task2Money project owner through the verified contact details supplied in partnership correspondence.</p>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
